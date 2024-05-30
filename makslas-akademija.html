@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mākslas akadēmija</title>
+	<style>
+		#object-img {
+			width: 50%; 
+			height: 50%;
+			margin: auto; 
+            padding-top: 100px;
+			padding-bottom: 30px;
+			border-radius: 15%;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex; 
+			justify-content: center;
+			align-items: center; 
+		}
+		.text{
+			max-width: 100%;
+    font-size: 20px;
+    text-align: center ;
+    margin: 2% 15% 0 15%;
+		}
+		.last{
+			margin-bottom: 40px;
+		}
+	</style>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Tweaks for older IEs-->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container">
+		   <img class="logo" src="img/logo.png" onclick="redirectLU()">
+		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			  </button>
+		   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				 <li class="nav-item">
+					<a class="nav-link lng-home" href="index.html">Galvenā</a>
+				 </li>
+				 <li class="nav-item">
+					<a class="nav-link lng-about" href="route.html">Maršruts</a>
+				 </li>
+				 <li class="nav-item">
+					<a class="nav-link lng-products" href="studijas.html">Studijas</a>
+				 </li>
+			  </ul>
+		   </div>
+		   <img class="logo" src="graphics/moon.svg" id="theme-change">
+	 </nav>
+	<img id="object-img" src="img/makslas_akademija.jpg" alt="Mākslas akadēmija">
+	<div >
+		<p class="text">   
+			Latvijas Mākslas akadēmija ir mākslas, jaunrades un kultūras augstākās izglītības un zinātniskās pētniecības akadēmija Rīgā.
+			 Dibināta 1919. gadā, īstenojot Vilhelma Purvīša ieceri izveidot Latvijā augstāko mākslas izglītības iestādi.
+			 Akadēmija atrodas neogotikas stilā celtajā agrākās Biržas komercskolas ēkā (arhitekts Vilhelms Bokslafs).
+			  Tā ir autonoma augstskola ar tiesībām patstāvīgi izstrādāt savu satversmi un noteikt studiju saturu un formas, pētniecības darba virzienus un to saturu.
+		</p>
+	 </div>
+	 <div class="last">
+		<p class="text">   
+			1919. gada 4. maijā laikrakstā "Cīņa" tika publicēts LSPR Tautas izglītības komisāriāta ziņojums, 
+			ka maija vidū Rīgā darbību uzsākšot "plaša proletāriskās mākslas darbnīca". Apzīmējums "akadēmija" vairs netika lietots, 
+			jo ar akadēmijas jēdzienu saistījās priekšstats par veco, konservatīvo iekārtu un tās mākslas ideāliem.
+			Tā kā 22. maijā Rīgu ieņēma Niedras valdībai pakļautais vācu karaspēks, tad "proletāriskās mākslas darbnīca" 
+			darbību nepaspēja uzsākt, toties 1919. gada 20. augustā Latvijas Pagaidu valdības Ministru kabinets pieņēma 
+			lēmumu nodibināt Latvijas Mākslas akadēmiju. Par mācībspēkiem sagatavošanas klasēs un meistardarbnīcās bija aicināti 
+			V. Purvītis, T. Zaļkalns, J. Tilbergs, R. Zariņš, J. Madernieks, J. Kuga, B. Dzenis, S. Vidbergs, A. Drēviņš, K. Ubāns, 
+			V. Tone u.c. 
+	 </div>
+		 <footer class="footer">
+		<div class="container">
+		   <div class="footer-container">
+			  <div class="nav-item" id="item1">
+				 Autors: Daniels Janovskis
+			  </div>
+			  <div class="nav-item" id="item2">
+				 Sazināties ar mani:
+			  </div>
+			  <div class="nav-item" id="item3">
+				 Izstradāts 2024. gadā
+			  </div>
+			  <div class="nav-item" id="item4">
+				 Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
+			  </div>
+				
+		   </div>
+		   
+		</div>
+	 </footer>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+      <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
+      <script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+      <script src="js/themeChange.js"></script>
+      <script src="js/redirect.js"></script>
+	</body>
+</html>

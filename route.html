@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Route</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen"> -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+   </head>
+   <body>
+      <!-- header section start -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+         <div class="container">
+            <img class="logo" src="img/logo.png" onclick="redirectLU()">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link lng-home" href="index.html">Galvenā</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link lng-about" href="route.html">Maršruts</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link lng-products" href="studijas.html">Studijas</a>
+                  </li>
+               </ul>
+               <img class="logo" src="graphics/moon.svg" id="theme-change">
+            </div>
+      </nav>
+
+   <!-- header section end -->
+      <!-- banner section start -->  
+      <div class="banner_section"><img src="img/Start.png"></div>
+      <!-- banner section end -->
+
+      <!--  route section start -->
+      <div id="route" class="route_section layout_padding" >
+         <div id="route">
+            <h1 class="route_title">Maršruts uz Universitāti</h1>
+            <div class="row">
+               <p class="route_text" >   Es dzīvoju Imantā un vispiemērotākais maršruts sabiedriskajā transporta manā gadījumā ir 37./41. autobuss.
+                  Maršruts sākas Imantā un iet garām Imantas tirgum, Botāniskajam dārzam un Rīgas Stradiņa Universitātei. Pēc tām tas virzās garām Mārtiņa kapiem līdz Valsts arhīvam, kur griež pa kreisi uz Vanšu tiltu. 
+                  Iebraucot uz Vanšu tilta no autobusa var redzēt Zunda torņus, Ķīpsalas pludmali, Rīgas pīli un Daugavas krastmalu. 
+                  <br/> <br/> 
+               </p>
+               <p class="route_text"> 
+                  Maršruta Centra gabals iet garām Jēkaba laukam, Latvijas Nacionālajam teātrim, Mākslas akadēmijai un Mākslas muzejam, Radisson viesnīcai un beidzas Esplanādē pie Rīgas Kristus Piedzimšanas pareizticīgo katedrāles.   
+                  Kopējais maršruta laiks ir aptuveni 20-30 minutes, bet tas ir ļoti atkarīgs no sastrēgumiem. Tā kā maršruts iet pāri Vanšu tiltam, no rīta
+                  tas varētu aizņēmt lielāku laiku, jo tur ir diezgan daudz sastrēgumu.
+                  Visas objektu bildes un video, kas ir redzami šajā vietnē esmu uzņēmis pats.
+               </p>
+            </div>
+            <h1 class="route_title">Maršruta skati</h1>
+         </div>
+      </div>
+      <!--  route section end -->
+      <div id="my_slider" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner" id="myCarousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+                <li data-target="#myCarousel" data-slide-to="1"></li> 
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-item active">
+               <div class="container">
+                  <div class="design_section_2">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="box_main">
+                              <p class="carousel_image_text">Barklaja de Tolli piemineklis</p>
+                              <div class="image_4"><a href="barklajs.html"><img src="img/Barclay_vertical.jpg"></a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="box_main">
+                              <p class="carousel_image_text">Swedbanka ēka</p>
+                              <div class="image_4"><a href="swedbank.html"><img src="img/swed.jpg"></a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="box_main">
+                              <p class="carousel_image_text">Radisson Blu Latvija viesnīca</p>
+                              <div class="image_4"><a href="radisson.html"><img src="img/radison_vertical.jpg"></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <h1 class="design_taital lng-asotrment2">  </h1>
+                  <div class="design_section_2">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="box_main">
+                              <p class="carousel_image_text">Zunda-towers</p>
+                              <div class="image_4"><a href="zunda.html"><img src="img/Zunda-towers.jpg"></a></div>
+                           </div>
+                        </div>
+                        <div class="col-md-4" >
+                           <div class="box_main">
+                              <p class="carousel_image_text">Rīgas pils</p>
+                              <div class="image_4"><a href="prezidenta_pils.html"><img src="img/president-vertical.jpg" ></a></div>
+                           </div>
+                        </div>
+
+                        <div class="col-md-4" >
+                           <div class="box_main">
+                              <p class="carousel_image_text">Pulkstenis</p>
+                              <div class="image_4"><a href="pulkstenis.html"><img src="img/pulkstenis2.jpg" ></a></div>
+                           </div>
+                        </div>
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item custom-width">
+               <div class="container">
+                  <h1 class="design_taital lng-asotrment2">  </h1>
+                  <div class="design_section_2">
+                     <div class="row">
+
+                           <div class="box_main box_main_horizontal">
+                              <p class="carousel_image_text">Mākslas akadēmija</p>
+                              <div class="image_4"><a href="makslas-akademija.html"><img src="img/makslas_akademija.jpg"></a></div>
+                           </div>
+                     
+                           <div class="box_main box_main_horizontal">
+                              <p class="carousel_image_text">Kristus Piedzimšanas katedrāle</p>
+                              <div class="image_4"><a href="kristus-piedz-katedr.html"><img src="img/church.jpg" ></a></div>
+                           </div>
+              
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item custom-width">
+               <div class="container">
+                  <h1 class="design_taital">  </h1>
+                  <div class="design_section_2">
+                     <div class="row">
+                        
+                           <div class="box_main box_main_horizontal">
+                              <p class="carousel_image_text">Ķipsalas pludmale tuvāk</p>
+                              <div class="image_4"><a href="kipsala.html"><img src="img/kipsala_plud.jpg"></a></div>
+                           </div>
+                    
+                           <div class="box_main box_main_horizontal">
+                              <p class="carousel_image_text">Ķipsalas pludmale tālāk</p>
+                              <div class="image_4"><a href="kipsala.html"><img src="img/kipsala_plud_far.jpg"></a></div>
+
+                           </div>
+                      
+                       
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="carousel-buttons carousel-control-bottom">
+            <a id="carousel-prev" class="carousel-control-prev" data-target="#myCarousel" role="button">
+               <i class="fa fa-long-arrow-left" style="font-size:24px"></i>
+               </a>
+               <a id="carousel-next" class="carousel-control-next" data-target="#myCarousel" role="button">
+               <i class="fa fa-long-arrow-right" style="font-size:24px;"></i>
+               </a>
+         </div>
+         
+         <div class="more_bt"><a href="kolaza.html" id="more-btn">Vairāk</a></div>
+      </div>
+      <!-- map section start -->
+      <h2 class="map-text" style="text-indent: 0%;">Maršruta izskats mapē</h2>
+      <div id="map" style="height: 500px;">
+         
+         
+      </div>
+      <div class="row">
+         <p class="map-text">   
+            2024. gada pavasarī, kad tika veidota šī vietne, sākarā ar remonta darbiem Slokas ielā, 41. un 37. autobusu maršruti nedaudz
+            izmainījas. Tagad tie brauc pa Vilipa ielu uz Kalnciema kvartālu lai aizbrauktu apkārt remontējamām ceļa gabalam. Šo izmaiņu dēļ 
+            braukšanas laiks no Imantas līdz universitātei ir kļūvis ilgāks, kas mudināja mani dāžreiz izvēlēties citas maršrutu iespējas,
+            piemēram 1. tramvaju. Taču es ceru, ka remonta darbi drīz būs pabeigti un es varēšu braukt uz universitāti pa veco maršrutu pa izremontēto ceļu.
+         </p>
+      </div>
+     
+      <!-- map section end -->
+
+      <!-- footer section start -->
+
+      <footer class="footer">
+         <div class="container">
+
+            <div class="footer-container">
+               <div class="nav-item" id="item1">
+                  Autors: Daniels Janovskis
+               </div>
+               <div class="nav-item" id="item2">
+                  Sazināties ar mani:
+               </div>
+               <div class="nav-item" id="item3">
+                  Izstradāts 2024. gadā
+               </div>
+               <div class="nav-item" id="item4">
+                  Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
+               </div>
+                 
+            </div>
+            
+         </div>
+      </footer>
+      
+      <!-- footer section end -->
+
+      <!-- Javascript files-->
+     
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+      <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
+      <script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+      <script src="js/themeChange.js"></script>
+      <script src="js/redirect.js"></script>
+   </body>
+   <script>
+
+   $(document).ready(function(){ // Activate Carousel $("#myCarousel").carousel();
+
+      // Enable Carousel Indicators
+      $(".carousel-indicators .active").click(function(){
+      $("#myCarousel").carousel(parseInt($(this).data('slide-to')));
+   });
+
+      // Enable Carousel Controls
+      $(".carousel-control-prev").click(function(){
+      $("#myCarousel").carousel("prev");
+      });
+      $(".carousel-control-next").click(function(){
+      $("#myCarousel").carousel("next");
+      });
+   });
+
+   var map = L.map('map').setView([56.950688641786215, 24.11598300170659], 50);
+   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+}).addTo(map);
+
+var latlngs = [
+    [56.953698365105836, 24.034640403607547],
+    [56.952006498626254, 24.035139104906623],
+    [56.951685992141556, 24.046295117798927],
+    [56.95099767141775, 24.054113503034547],
+    [56.95145174270306, 24.05678360849764],
+    [56.95190646868458, 24.06331616339971],
+    [56.95087293348688, 24.064802671170355],
+    [56.950551368912954, 24.06732336889994],
+    [56.94953991141278, 24.070932941829778],
+    [56.94848908334157, 24.072279011238603],
+    [56.945766348515306, 24.074301317812655],
+    [56.94837177789293, 24.08113969893377],
+    [56.95298851945613, 24.10479458756591],
+    [56.95398140700257, 24.107040171335566],
+    [56.95571062298357, 24.111303746522733],
+    [56.956471783519504, 24.11374657799445],
+    [56.954444745496104, 24.117767387559706],
+    [56.95347669251285, 24.115961816373492]
+];
+56.951034033668094, 24.054021721317255
+var customIcon = L.icon({
+    iconUrl: 'graphics/finish.svg',
+    iconSize: [38, 95], 
+    iconAnchor: [22, 94], 
+    popupAnchor: [-3, -76] 
+});
+
+var markerStart = L.marker([56.95368295524385, 24.03462757148312], {icon: customIcon}).addTo(map);
+var markerFinish = L.marker([56.950562618694526, 24.115591506562087], {icon: customIcon}).addTo(map);
+
+
+var polyline = L.polyline(latlngs, {color: 'red'}).addTo(map);
+
+
+
+var latlngs2 = [
+    [56.95347669251285, 24.115961816373492],
+    [56.9526906480657, 24.114914888391585],
+    [56.95249205657261, 24.11528492769812],
+    [56.95128833513736, 24.116624602577467],
+    [56.95082214356827, 24.11523389241093],
+    [56.95050902655501, 24.115552862632608]
+];
+
+var polyline2 = L.polyline(latlngs2, {color: 'green'}).addTo(map);
+map.fitBounds(polyline.getBounds());
+   </script>
+</html>

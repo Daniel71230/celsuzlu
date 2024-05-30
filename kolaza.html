@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Road to LU</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   </head>
+   <body>
+      <!-- header section start -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <div class="container">
+               <img class="logo" src="img/logo.png" onclick="redirectLU()">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                        <a class="nav-link lng-home" href="index.html">Galvenā</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link lng-about" href="route.html">Maršruts</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link lng-products" href="studijas.html">Studijas</a>
+                     </li>
+                  </ul>
+                  <img class="logo" src="graphics/moon.svg" id="theme-change">
+               </div>
+               
+         </nav>
+
+      <!-- header section end -->
+   
+      <!-- kolaza section start -->
+      <h1 class="kolaza-title">Kolaža ar Maršruta skatiem</h1>
+      <main class="kolaza">
+        
+        <div class="kolaza-container">
+            <img class="kolaza-image" src="img/kolaza.png" alt="Kolaža">
+        </div>
+        <div class="row">
+            <p class="kolaza-text">Kolāžā ir reprezentēti vairāku ēku un objektu attēli, kurus es varu redzēt, braucot uz 
+                Latvijas Universitāti. Tajā ir reprezentēti: Imantas tirgus, Latvijas Nacionālais arhīvs, Hamann biznesa centrs,
+                Kristus Piedzimšanas katedrāle, Zunda torņi, Ārlietu ministrija utt. 
+            </p>
+         </div>
+         <div class="kolaza-container" >
+            <video class="kolaza-video" controls>
+                <source src="img/rigas_kanals_vid2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="row">
+         <p class="kolaza-text">Skats uz Rīgas kanālu ļoti siltā un sauļainā maija dienā. Kā ir redzams pa kanālu ir arī iespējams pabraukt
+            ar laiviņu un apskatīties Vecrīgu.
+         </p>
+      </div>
+      </main>
+      <!-- kolaza section end -->
+
+      <!-- footer section start -->
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-container">
+               <div class="nav-item" id="item1">
+                  Autors: Daniels Janovskis
+               </div>
+               <div class="nav-item" id="item2">
+                  Sazināties ar mani:
+               </div>
+               <div class="nav-item" id="item3">
+                  Izstradāts 2024. gadā
+               </div>
+               <div class="nav-item" id="item4">
+                  Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
+               </div>
+                 
+            </div>
+            
+         </div>
+      </footer>
+      
+      <!-- footer section end -->
+
+      <!-- Javascript files-->
+     
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+      <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
+<script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+<script src="js/themeChange.js"></script>
+<script src="js/redirect.js"></script>
+   </body>
+</html>

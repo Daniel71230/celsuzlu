@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zunda towers</title>
+	<style>
+		#object-img {
+			width: 25%; 
+			height: 25%;
+			margin: auto; 
+            padding-top: 100px;
+			padding-bottom: 30px;
+			border-radius: 15%;
+		}
+		#map{
+			width: 100%;
+    	height: 600px; 
+
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex; 
+			justify-content: center; 
+			align-items: center;
+		}
+		.text{
+			max-width: 100%;
+    font-size: 20px;
+    text-align: center ;
+    margin: 2% 15% 0 15%;
+		}
+		.last{
+			margin-bottom: 40px;
+		}
+	</style>
+	<!-- style css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Tweaks for older IEs-->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container">
+		   <img class="logo" src="img/logo.png" onclick="redirectLU()">
+		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			  </button>
+		   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav mr-auto">
+				 <li class="nav-item">
+					<a class="nav-link lng-home" href="index.html">Galvenā</a>
+				 </li>
+				 <li class="nav-item">
+					<a class="nav-link lng-about" href="route.html">Maršruts</a>
+				 </li>
+				 <li class="nav-item">
+					<a class="nav-link lng-products" href="studijas.html">Studijas</a>
+				 </li>
+			  </ul>
+			  <img class="logo" src="graphics/moon.svg" id="theme-change">
+		   </div>
+		   
+	 </nav>
+	<img id="object-img" src="img/Zunda-towers.jpg" alt="Skats uz Zunda torņiem">
+	<div >
+		<p class="text">   
+			Zunda Towers (līdz 2022. gadam Z-Towers) ir augstceltne Raņķa dambī 30 Rīgā, Pārdaugavā, Āgenskalna apkaimē.
+			 Tā ir augstākā ēka Rīgā un Latvijā. Ēkas projekta attīstība tika uzsākta 2006. gadā, bet pabeigta 2017. gada 4. ceturksnī.
+			 Ēkas projektu izstrādājis arhitektu birojs No Rules Just Architecture, torņu fasādes projektu izstrādājis arhitekts Helmuts Jāns (Jahn).
+			 2020. gada janvārī Rīgas būvvalde Z-Towers pieņēma ekspluatācijā.
+		</p>
+	 </div>
+	 <div class="last">
+		<p class="text">   
+			Daudzfunkciju kompleksā Zunda Towers ir divi apaļa šķērsgriezuma torņi ar dažādas platības pamatnēm, 
+			katrs tornis ir 30 stāvu augsts. Stikla paketes, kas pildītas ar argona gāzi, ir kārtotas, viena otru pārklājot, 
+			veidojot stilizētas ziedlapiņas ap apaļo torni. 
+			Torņu augstums: South 123 m, North 117,5 m. Kopējais apartamentu skaits abos torņos ir 341.
+		</p>
+	 </div>
+
+	 <footer class="footer">
+		<div class="container">
+		   <a class="logo2" href="https://lu.lv"><img src="img/logo2.png"></a>
+		   <div class="footer-container">
+			  <div class="nav-item" id="item1">
+				 Autors: Daniels Janovskis
+			  </div>
+			  <div class="nav-item" id="item2">
+				 Sazināties ar mani:
+			  </div>
+			  <div class="nav-item" id="item3">
+				 Izstradāts 2024. gadā
+			  </div>
+			  <div class="nav-item" id="item4">
+				 Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
+			  </div>
+				
+		   </div>
+		   
+		</div>
+	 </footer>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+
+      <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
+      <script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+      <script src="js/themeChange.js"></script>
+      <script src="js/redirect.js"></script>
+</body>
+</html>
