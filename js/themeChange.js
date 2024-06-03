@@ -1,4 +1,7 @@
 $(document).ready(function() {
+    if(localStorage.getItem("darkMode")){
+        localStorage.removeItem("darkMode");
+    }
     let darkMode = localStorage.getItem("darkMode");
 
     const themeChange = document.getElementById("theme-change");
@@ -8,6 +11,8 @@ $(document).ready(function() {
     const prevCont = document.getElementsByClassName("carousel-control-prev")[0];
     const nextCont = document.getElementsByClassName("carousel-control-next")[0];
     
+
+
     const enableDarkMode = () => {
         document.body.classList.add("darkMode");
         if (carImg){
