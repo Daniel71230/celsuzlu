@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Rīgas pils</title>
-    <style>
+	<title>Barklaja de Tolli piemineklis</title>
+	<style>
 		#object-img {
 			width: 25%; 
 			height: 25%;
@@ -11,13 +11,18 @@
 			padding-bottom: 30px;
 			border-radius: 15%;
 		}
+		#map{
+			width: 100%;
+    	height: 600px; 
+
+		}
 
 		body {
 			margin: 0;
 			padding: 0;
-			display: flex; /* add this to center the image vertically and horizontally */
-			justify-content: center; /* add this to center the image horizontally */
-			align-items: center; /* add this to center the image vertically */
+			display: flex; 
+			justify-content: center; 
+			align-items: center;
 		}
 		.text{
 			max-width: 100%;
@@ -35,8 +40,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive-->
 	<link rel="stylesheet" href="css/responsive.css">
-	<!-- Scrollbar Custom CSS 
-	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">-->
 	<!-- Tweaks for older IEs-->
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
@@ -45,7 +48,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 		<div class="container">
-			<img class="logo" src="img/portrait.jpg">
+		   <img class="logo" src="img/portrait.jpg" alt="Mans portrets">
 		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			  <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -61,48 +64,56 @@
 					<a class="nav-link lng-products" href="studijas.html">Studijas</a>
 				 </li>
 			  </ul>
+			  <img class="logo" src="graphics/moon.svg" id="theme-change" alt="Tēmas maiņa">
 		   </div>
-		   <img class="logo" src="graphics/moon.svg" id="theme-change">
-	 </nav>
-	<img id="object-img" src="img/president-vertical.jpg" alt="Skats uz Rīgas pili">
-	<div class="last">
-		<p class="text">   
-			Rīgas pils (Rīgas ordeņpils) ir viduslaiku pils, Latvijas Republikas Valsts prezidenta rezidence Rīgā, Daugavas krastā. 
-			Livonijas ordeņa pils — mestra rezidence šajā vietā uzcelta 1340. gadu beigās.
-			(Rīgas II ordeņpils), 1484. gadā nopostīta, un 1515. gadā uzcelta no jauna (Rīgas III ordeņpils). 
-			Vēlāk pilī atradās poļu un zviedru vietvalžu rezidences, pēc tam Krievijas Impērijas Baltijas provinču
-			 (Rīgas) ģenerālgubernatoru un Vidzemes gubernatoru mītne. Kad Latvija kļuva par neatkarīgu valsti, 
-			 pilī ierīkota Latvijas Republikas Valsts prezidenta rezidence. Padomju laikā pilī atradās Pionieru pils un dažādi muzeji, 
-			 bet pēc Latvijas neatkarības atjaunošanas tā restaurēta. Pilī iekārtotas reprezentācijas telpas un Valsts prezidenta 
-			 apartamenti. Valsts nozīmes arhitektūras piemineklis, viena no Vecrīgas dominantēm, viena no izcilākajām viduslaiku pilīm 
-			 Latvijā. Rīgas pils Sūtņu akreditācijas zāles interjers iekļauts Latvijas kultūras kanona arhitektūras un dizaina sadaļā.
-		</p>
-	 </div>
-	 <footer class="footer">
-		<div class="container">
-		   <a class="logo2" href="https://lu.lv"><img src="img/logo2.png"></a>
-		   <div class="footer-container">
-			  <div class="nav-item" id="item1">
-				 Autors: Daniels Janovskis
-			  </div>
-			  <div class="nav-item" id="item2">
-				 Sazināties ar mani:
-			  </div>
-			  <div class="nav-item" id="item3">
-				 Izstradāts 2024. gadā
-			  </div>
-			  <div class="nav-item" id="item4">
-				 Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
-			  </div>
-				
-		   </div>
-		   
 		</div>
-	 </footer>
-	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+	 </nav>
 
-      <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
-      <script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
-      <script src="js/themeChange.js"></script>
-</body>
+	 <img id="object-img" src="img/president-vertical.jpg" alt="Skats uz Rīgas pili">
+	 <div style="margin-bottom: 5%;">
+		 <p class="text">
+			 Rīgas pils, kas kalpo par Latvijas prezidenta rezidenti ir skaista viduslaiku ēka, kas ir vislabāk redzama no Vanšu tilta un
+			 Daugavas pretējas krastmalas.
+		 </p>
+	  </div>
+	 <div class="last">
+		 <h1 class="about_title2">Objekta vēsture</h1>
+		 <p class="text">   
+			 Rīgas pils (Rīgas ordeņpils) ir viduslaiku pils, Latvijas Republikas Valsts prezidenta rezidence Rīgā, Daugavas krastā. 
+			 Livonijas ordeņa pils — mestra rezidence šajā vietā uzcelta 1340. gadu beigās.
+			 (Rīgas II ordeņpils), 1484. gadā nopostīta, un 1515. gadā uzcelta no jauna (Rīgas III ordeņpils). 
+			 Vēlāk pilī atradās poļu un zviedru vietvalžu rezidences, pēc tam Krievijas Impērijas Baltijas provinču
+			  (Rīgas) ģenerālgubernatoru un Vidzemes gubernatoru mītne. Kad Latvija kļuva par neatkarīgu valsti, 
+			  pilī ierīkota Latvijas Republikas Valsts prezidenta rezidence. Padomju laikā pilī atradās Pionieru pils un dažādi muzeji, 
+			  bet pēc Latvijas neatkarības atjaunošanas tā restaurēta. Pilī iekārtotas reprezentācijas telpas un Valsts prezidenta 
+			  apartamenti. Valsts nozīmes arhitektūras piemineklis, viena no Vecrīgas dominantēm, viena no izcilākajām viduslaiku pilīm 
+			  Latvijā. Rīgas pils Sūtņu akreditācijas zāles interjers iekļauts Latvijas kultūras kanona arhitektūras un dizaina sadaļā.
+		 </p>
+	  </div>
+	  <footer class="footer">
+		 <div class="container">
+			<div class="footer-container">
+			   <div class="nav-item" id="item1">
+				  Autors: Daniels Janovskis
+			   </div>
+			   <div class="nav-item" id="item2">
+				  Sazināties ar mani:
+			   </div>
+			   <div class="nav-item" id="item3">
+				  Izstradāts 2024. gadā
+			   </div>
+			   <div class="nav-item" id="item4">
+				  Epasts:  <a class="nav-link" href="mailto:dj18046@edu.lu.lv">dj18046@edu.lu.lv</a>
+			   </div>
+				 
+			</div>
+			
+		 </div>
+	  </footer>
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+ 
+	   <script defer src=https://CDN.JSDelivr.net/npm/p5></script>
+	   <script defer src=https://CDN.JSDelivr.net/npm/p5/lib/addons/p5.dom.min.js></script>
+	   <script src="js/themeChange.js"></script>
+ </body>
 </html>

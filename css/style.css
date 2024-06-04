@@ -231,7 +231,7 @@ blockquote {
 }
 
 .navbar .container{
-    width: 100%;
+    /* width: 100%; */
     padding: 0 15px;
 }
 
@@ -312,6 +312,7 @@ blockquote {
     .navbar-nav .nav-item{
         margin-left: 55px;
     }
+    
 }
 
 .collapse .form-inline{
@@ -415,12 +416,15 @@ blockquote {
     .kursi{
         width: 80%;
     }
+    #work1-img-1{
+        max-width: 80%;
+    }
 }
 
 /* about section end */
 
 /* my works section start */
-.works, .work, .work2{
+.works, .work1, .work2{
     margin-bottom: 50px;
 }
 
@@ -463,6 +467,14 @@ blockquote {
     .dragon_bad{
         max-width: 60%;
         margin-left: 20%;
+    }
+    .work2{
+        max-width: 80vh;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .work2{
+        max-width: 55vh;
     }
   }
 
@@ -699,6 +711,9 @@ blockquote {
         max-width: 100%;
         width: 80% !important;
    
+    }
+    .carousel-item .container{
+        max-width: 60vh
     }
 
   }
