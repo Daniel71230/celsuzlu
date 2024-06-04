@@ -33,7 +33,7 @@ $(document).ready(function() {
         nextCont.classList.add("control-dark");
         }
         
-        themeChange.src = "graphics/sun_dark.svg";
+        themeChange.src = "graphics/sun.svg";
         localStorage.setItem("darkMode", "enabled");
     };
     

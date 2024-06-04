@@ -256,13 +256,13 @@ blockquote {
 }
 
 .logo{
-    width: auto; 
+    width: inherit; 
     height: inherit; 
     max-height: 75px !important;
     max-width: 75px !important;
     float: left;
     margin-right: 50px;
-    background-color: white;
+
 }
 .logo2{
     width: auto; 
@@ -290,7 +290,7 @@ blockquote {
 
 }
 .logo:hover {
-    background-color: #ffffffb0;
+
     cursor: pointer;
 }
 
@@ -713,8 +713,11 @@ blockquote {
    
     }
     .carousel-item .container{
-        max-width: 60vh
+        max-width: 70vh
     }
+    /* .carousel-control-prev{
+        padding-right: 50px;
+    } */
 
   }
 /* carousel section end */
