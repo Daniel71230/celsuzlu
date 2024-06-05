@@ -32,14 +32,14 @@ body {
     color: black;
     font-size: 14px;
     font-family: 'Inter', sans-serif;
-    line-height: 1.80857;
+    line-height: 1.80;
     font-weight: normal;
     overflow-x: hidden;
 }
 
 .darkMode{
-    background-color: var(--second-color); /* black */
-    color: var(--prim-color); /* white */
+    background-color: var(--second-color); 
+    color: var(--prim-color); 
 }
 
 #theme-change{
@@ -231,7 +231,6 @@ blockquote {
 }
 
 .navbar .container{
-    /* width: 100%; */
     padding: 0 15px;
 }
 
@@ -519,15 +518,6 @@ blockquote {
     margin-bottom: 100px;
 }
 
-.design_taital {
-    width: 100%;
-    float: left;
-    font-size: 40px;
-    color: var(--nav-color);
-    text-align: center;
-    font-weight: bold;
-}
-
 .design_text {
     width: 100%;
     float: left;
@@ -713,11 +703,8 @@ blockquote {
    
     }
     .carousel-item .container{
-        max-width: 70vh
+        max-width: 55vh
     }
-    /* .carousel-control-prev{
-        padding-right: 50px;
-    } */
 
   }
 /* carousel section end */
@@ -726,6 +713,7 @@ blockquote {
 /* motivation section end */    
 
 /* map section start */
+
 #map{
     height: 60%; 
     width: 60%; 

@@ -10,8 +10,6 @@ $(document).ready(function() {
     const moreBtn = document.getElementById("more-btn");
     const prevCont = document.getElementsByClassName("carousel-control-prev")[0];
     const nextCont = document.getElementsByClassName("carousel-control-next")[0];
-    
-
 
     const enableDarkMode = () => {
         document.body.classList.add("darkMode");
@@ -32,7 +30,7 @@ $(document).ready(function() {
             prevCont.classList.add("control-dark");
         nextCont.classList.add("control-dark");
         }
-        
+
         themeChange.src = "graphics/sun.svg";
         localStorage.setItem("darkMode", "enabled");
     };
